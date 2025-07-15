@@ -1,0 +1,100 @@
+/* === ZÁKLAD === */
+html, body {
+  height: 100Vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+body.home-background {
+  background: linear-gradient(to right, #b8e3cd, #92a8bc);
+}
+
+
+/* === NAVBAR === */
+.navbar {
+  background: linear-gradient(90deg, #1a6671, #8f6521);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #fff !important;
+  margin-right: 1rem;
+}
+
+.nav-link:hover {
+  color: #e2e6ea !important;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    margin: 0.5rem 0;
+  }
+
+  .container {
+    padding: 20px 15px;
+  }
+}
+
+main {
+  flex: 1;
+}
+
+p.lead {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* === BUTTON === */
+.btn-primary {
+  background: linear-gradient(90deg, #1a6671, #8f6521);
+  border: none;
+  padding: 10px 24px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.footer-custom {
+  background: linear-gradient(90deg, #1a6671, #8f6521);
+  color: #f8f9fa;
+  font-size: 0.95rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  padding: 40px 0;
+  margin-top: auto;
+}
+
+.footer-custom a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.footer-custom a:hover {
+  text-decoration: underline;
+}
+

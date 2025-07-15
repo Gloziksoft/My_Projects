@@ -1,0 +1,11 @@
+main {
+    min-height: calc(100vh - 120px); /* zohľadni výšku headeru a footeru */
+    padding: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f1f1f1;
+  }
+  
